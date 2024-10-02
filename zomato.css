@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(234, 227, 227, 0.388);
+}
+header {
+  position: relative;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  /* border: 1px solid; */
+  width: 1500px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  font-weight: 400;
+  position: relative;
+  bottom: 100px;
+}
+div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.logo {
+  /* border: 1px solid; */
+  width: 200px;
+  height: 30px;
+  position: relative;
+  top: 50px;
+  left: 220px;
+}
+.search {
+  width: 600px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  border: 1px solid;
+  align-items: center;
+  box-shadow: 0px 0px 6px rgb(131, 131, 131);
+  border-radius: 7px;
+}
+.registration {
+  /* border: 1px solid; */
+
+  position: relative;
+  top: 60px;
+  right: 50px;
+}
+.registration .signup {
+  position: absolute;
+  left: 100px;
+}
+.logo img {
+  height: 25px;
+}
+.search img {
+  height: 25px;
+}
+.search input {
+  margin-left: 50px;
+  width: 600px;
+  position: relative;
+  outline: none;
+}
+.search .image {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 22px;
+  right: 400px;
+}
+.search select {
+  border-style: none;
+  height: 100%;
+}
+.search select > option {
+  width: 200px;
+}
+.search input {
+  border-style: none;
+  height: 100%;
+}
+.registration input {
+  border-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+  background-color: white;
+  color: rgb(100, 94, 94);
+}
+.registration input:hover {
+  cursor: pointer;
+}
+.category {
+  position: relative;
+  top: 55px;
+}
+.category .dine {
+  position: absolute;
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 90px;
+  right: 1240px;
+  background-color: rgb(231, 231, 232);
+}
+.category .dine:hover {
+  background-color: rgb(199, 245, 245);
+  cursor: pointer;
+}
+.dine img {
+  display: flex;
+  height: 35px;
+}
+.category .delivery {
+  position: absolute;
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  border-style: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 90px;
+  right: 1050px;
+  background-color: rgb(231, 231, 232);
+}
+.category .delivery:hover {
+  background-color: rgb(199, 245, 245);
+  cursor: pointer;
+}
+.delivery img {
+  height: 35px;
+}
+.category .nightlife {
+  position: absolute;
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  border-style: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 90px;
+  right: 860px;
+  background-color: rgb(231, 231, 232);
+}
+.category .nightlife:hover {
+  background-color: rgb(199, 245, 245);
+  cursor: pointer;
+}
+.nightlife img {
+  height: 35px;
+}
+.Dining {
+  position: relative;
+  top: 108px;
+  right: 1110px;
+  border-style: none;
+  background-color: white;
+}
+.Dining:hover {
+  cursor: pointer;
+}
+.Deli {
+  position: relative;
+  top: 88px;
+  right: 920px;
+  border-style: none;
+  background-color: white;
+}
+.Deli:hover {
+  cursor: pointer;
+}
+.Night {
+  position: relative;
+  top: 88px;
+  right: 780px;
+  border-style: none;
+  background-color: white;
+}
+.Night:hover {
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  margin-left: 200px;
+  top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container .para {
+  position: absolute;
+  top: 50px;
+  font-size: 20px;
+  color: rgb(72, 77, 80);
+}
+.search select {
+  width: 200px;
+  display: flex;
+  outline: none;
+}
+.container .collection p {
+  position: absolute;
+  top: 72px;
+  left: 900px;
+  color: rgb(230, 60, 89);
+}
+.grid {
+  position: relative;
+  top: 80px;
+  display: grid;
+  height: 150px;
+  width: 150px;
+  grid-template-columns: 250px 250px 250px 250px;
+}
+.grid img {
+  border-radius: 10px;
+  height: 290px;
+  width: 230px;
+  object-fit: cover;
+}
+.category .delivery .paraa {
+  position: absolute;
+  width: 180px;
+  top: 435px;
+  right: 80px;
+  color: white;
+  z-index: 1;
+  text-shadow: 0px 0px 15px black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+}
+.category .delivery .top {
+  position: absolute;
+  width: 180px;
+  top: 460px;
+  right: 80px;
+  z-index: 1;
+  color: white;
+}
+.category .nightlife .paraa-2 {
+  position: absolute;
+  width: 180px;
+  top: 435px;
+  right: 20px;
+  color: white;
+  z-index: 1;
+  text-shadow: 0px 0px 15px black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+  /* border-image: fill 0 linear-gradient(240deg, #000000aa, rgba(0, 0, 51, 0.295)); */
+}
+.category .nightlife .paraa-3 {
+  position: absolute;
+  width: 180px;
+  top: 435px;
+  left: 110px;
+  color: white;
+  z-index: 1;
+  font-size: 19px;
+  text-shadow: 0px 0px 15px black;
+}
+.category .nightlife .top-3 {
+  position: absolute;
+  width: 180px;
+  top: 460px;
+  left: 110px;
+  color: white;
+  z-index: 1;
+  font-size: 19px;
+  text-shadow: 0px 0px 15px black;
+}
+.category .nightlife .paraa-4 {
+  position: absolute;
+  width: 180px;
+  top: 435px;
+  left: 360px;
+  color: white;
+  z-index: 1;
+  font-size: 19px;
+  text-shadow: 0px 0px 15px black;
+}
+.Menu {
+  background-color: white;
+  height: 350px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 90px 90px 100px 100px 120px 115px 90px;
+}
+.Menu input {
+  position: relative;
+  top: 20px;
+  left: 190px;
+  background-color: white;
+  border-style: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 28px;
+  color: grey;
+}
+.Menu img {
+  height: 225px;
+  position: relative;
+  left: 85px;
+}
+.BestFood {
+  background-color: white;
+  height: 100vh;
+  width: 0;
+}
+.BestFood font {
+  position: relative;
+  left: 190px;
+}
+.BestFood .grid-2 {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 260px 260px 260px;
+  gap: 100px;
+  position: relative;
+  top: 60px;
+  left: 150px;
+}
+.box img {
+  height: 250px;
+  width: 325px;
+  object-fit: cover;
+  border-radius: 5px;
+  animation: fadeOut 2s forwards;
+  animation-timeline: scroll();
+  position: absolute;
+  position: absolute;
+  top: 10px;
+}
+.BestFood .food {
+  width: 100vw;
+  background-color: white;
+}
+.box {
+  height: 350px;
+  width: 345px;
+  border: 1px solid;
+  border-style: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  animation: fade 1s ease;
+}
+.box p {
+  z-index: 1;
+  position: relative;
+  top: 260px;
+  right: 65px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+.box font {
+  z-index: 1;
+  position: absolute;
+  top: 265px;
+  left: 270px;
+  background-color: green;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+.box:hover {
+  box-shadow: 0px 0px 4px black;
+
+  cursor: pointer;
+}
+@keyframes fade {
+  0% {
+    transform: scale(0);
+    transform: translateY(0px 50px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
